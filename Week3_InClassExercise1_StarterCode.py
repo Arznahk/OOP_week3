@@ -20,10 +20,10 @@ class Cube(Shape3D):
         self.side = side
     # TODO: Write code for volume method.\
     def volume(self):
-        return self.side * 2
+        return self.side ** 3
     # TODO: Write code for surface_area method.\
     def surface_area(self):
-        return self.side * 4
+        return (self.side ** 2) * 6
 
 # TODO: Implement subclass Sphere\
 class Sphere(Shape3D):
